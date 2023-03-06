@@ -1,0 +1,75 @@
+.color {
+  color:#C67100;
+}
+
+
+.buy-btn {
+  background:#C67100;
+  border-color:#C67100;
+}
+
+.buy-btn:hover {
+  color:#C67100;
+}
+
+.more-btn:hover {
+  color:#C67100;
+}
+
+.border-color {
+  border-color:#C67100;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media (max-width:360px){
+  body {
+    font-size: 14px;
+  }
+}
+
+
+.show {
+  display: block;
+}
+
+.link:hover {
+  color:#C67100;
+}
+
+.bands-list-item {
+  padding: 0.5rem;
+}
+
+.bands-list-item:nth-child(even) {
+  color:#C67100;
+}
+
+@media (min-width:640px) {
+  .bands-list-item {
+    display: inline-block;
+  }
+}
+
+.tabs-content__item {
+  display: none;
+}
+
+.tabs-content__item--active {
+  display: block !important;
+}
+
+.tabs-triggers__item--active {
+  border-bottom: 2px solid #C67100;
+}
+
+.font-xxs {
+  font-size: 8px;
+  line-height: 1.2;
+}
